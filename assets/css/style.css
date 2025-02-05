@@ -1,0 +1,336 @@
+.navbar li a,
+.navbar-nav li a {
+  color: #fff !important;
+}
+
+.breadcrumb-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerpage {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/bannerImage.png);
+  height: 100vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.innerbanner {
+  color: white;
+}
+
+.innerbanner ul {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-40%);
+}
+
+ul li {
+  list-style: none;
+}
+
+.innerbanner ul li.rotate-item {
+  list-style: none;
+  rotate: 90deg;
+}
+
+.rt-size {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.line {
+  margin-top: 40px;
+  width: 2px;
+  height: 150px;
+  background: #d7e0f2;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+.fa-instagram {
+  color: white;
+}
+
+.bannertext {
+  margin-top: 70px;
+  margin-left: 30px;
+  width: 706px;
+}
+
+.bannerpage h5 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bannerpage h1 {
+  font-size: 96px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bannerpage p {
+  text-align: left;
+  width: 706px;
+  font-size: 22px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 33px;
+}
+
+.bannerinput input {
+  padding: 0 10px;
+  width: 338px;
+  height: 52px;
+}
+
+.btn-greens {
+  background: #05a081;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.agencyleftimage img {
+  display: block;
+  width: 428px;
+  height: 513px;
+  margin-left: -165px;
+}
+
+.agency button {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 64px;
+}
+
+.agenp {
+  margin-top: 120px;
+  width: 330px;
+  margin-left: 64px;
+  margin-bottom: 190px;
+  text-align: left;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #29313d;
+  opacity: 0.5;
+}
+
+.agencyRightimg img {
+  width: 489.68px;
+  height: 586.93px;
+  margin-right: 34.4px;
+}
+
+.agencyRightimgSmall {
+  display: flex;
+  justify-content: end;
+  margin-top: -100px;
+}
+
+.agencyRightimgSmall img {
+  width: 327.21px;
+  height: 157.89px;
+}
+
+.agency {
+  margin-top: 180px;
+}
+
+.agency-subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #05a081;
+}
+
+.agency h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  color: #29313d;
+  width: 700px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.offer {
+  margin: 180px 0;
+}
+.offer h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  color: #29313d;
+  width: 700px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.offernav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.offernav ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #29313d;
+  opacity: 0.5;
+  padding: 0 10px;
+}
+
+.offernav ul li:nth-child(1) {
+  color: #05a081 !important;
+  font-weight: 700;
+}
+
+.hrbar {
+  width: 32px;
+  height: 6px;
+  background: #05a081;
+  border-radius: 1px;
+  position: absolute;
+  top: -3px;
+  left: 40px;
+}
+
+.mt-101 {
+  margin-top: 101px;
+}
+
+.offerp {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #29313d;
+  opacity: 0.5;
+  margin-bottom: 100px;
+}
+
+.digram img {
+  width: 524px;
+  height: 478px;
+}
+
+.successyear {
+  margin-bottom: 180px;
+}
+
+.successyear .d-flex {
+  gap: 50px;
+}
+
+.successyear img {
+  margin-left: -155px;
+}
+
+.syNumber {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  font-weight: normal;
+  color: #fff;
+  position: absolute;
+  top: 304px;
+  left: -103px;
+}
+
+.suTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #29313d;
+  width: 519px;
+}
+
+.suPar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #29313d;
+  opacity: 0.5;
+  width: 850px;
+  min-width: 500px;
+}
+
+.houseprint {
+  position: absolute;
+  top: -100px;
+  right: 0;
+  width: 1069px;
+  height: 707px;
+  background-image: url(../images/opacityhouse.png);
+  height: 100vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.resident h3.title {
+  width: 752px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 43px;
+}
+
+.footer {
+  background-color: #05a081;
+  padding-top: 50px;
+  margin-top: 160px;
+}
+
+.footer input {
+  width: 368px;
+  height: 30px;
+  background-color: transparent;
+  border-top: none;
+  border-right: none;
+  border-bottom: 2px solid #fff;
+  border-left: 1px solid transparent;
+  margin-top: 30px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.newxe {
+  margin-left: 50px;
+}
+
+.newxe p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  width: 413px;
+  margin-top: 47px;
+}
+
+.linegap {
+  width: 2px;
+  height: 193px;
+  background: #fff;
+}
