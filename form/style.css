@@ -1,0 +1,130 @@
+form {
+  width: 340px;
+  margin: 0 auto;
+  border: 1px solid #3f80e3;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  margin-top: 31px;
+}
+
+input[type="text"].w-half,
+input[type="email"].w-half {
+  width: 140px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #d4d4d4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-indent: 11px;
+}
+.extend {
+  width: 295px;
+  margin-left: 0;
+}
+input[type="password"].w-full,
+.extend input[type="password"] {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #d4d4d4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-indent: 11px;
+}
+
+input[type="text"].custom {
+  width: 204px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #d4d4d4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-indent: 11px;
+}
+.w-full input {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 20px;
+}
+
+.btn {
+  padding: 0 28px;
+  border: 1px solid #3f80e3;
+  border-radius: 5px;
+  background-color: #3f80e3;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.flex p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #ff5e5e;
+}
+
+.dynamic {
+  width: 301px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  padding: 6px 5px 5px 7px;
+  margin: 14px 20px 20px 19px;
+  gap: 16px;
+}
+
+.imagecountry {
+  width: 149px;
+  height: 108px;
+  background: #d9d9d9;
+}
+
+.info h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.info p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 8px;
+  padding: 0;
+  margin: 0 0 3px 0;
+}
+
+.extendedbtn {
+  width: 301px;
+  padding: 20px;
+  padding-top: 0;
+}
+.submit {
+  width: 100%;
+  text-align: center;
+  padding: 9px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 400;
+  font-size: 12px;
+  border: 1px solid #3f80e3;
+  border-radius: 5px;
+  background-color: #3f80e3;
+  color: #fff;
+}
